@@ -2,7 +2,7 @@
   "name": "crud-api",
   "version": "1.0.0",
   "description": "CRUD API using in-memory database",
-  "main": "index.js",
+  "main": "src/server.ts",
   "scripts": {
     "dev": "cross-env NODE_ENV=development nodemon --exec ts-node src/server.ts",
     "build": "tsc",

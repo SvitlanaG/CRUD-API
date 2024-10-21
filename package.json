@@ -9,6 +9,7 @@
     "start:prod": "npm run build && cross-env NODE_ENV=production node dist/server.js",
     "start:dev": "npm run dev",
     "test": "jest --watch",
+    "start:multi": "npm run build && ts-node src/loadBalancer.ts",
     "lint": "eslint . --ext .ts",
     "format": "prettier --write \"src/**/*.ts\""
   },
@@ -26,7 +27,6 @@
   },
   "homepage": "https://github.com/SvitlanaG/CRUD-API#readme",
   "dependencies": {
-    "@types/express": "^5.0.0",
     "@types/jest": "^29.5.13",
     "@types/node": "^22.7.7",
     "@types/uuid": "^10.0.0",

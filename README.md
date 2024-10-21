@@ -29,7 +29,7 @@ To clone this application and run it, follow these steps:
 3. **Set up environment variables**:
    Create a .env file in the root directory of the project and add the following line:
    ```bash
-   PORT=3000
+   PORT=4000
    ```
 4. **Running the Application**: You can run the application in different environments using the following npm scripts:
 
@@ -49,6 +49,12 @@ To clone this application and run it, follow these steps:
 
   ```bash
   npm run start:prod
+  ```
+
+- **_Start in Multi-threaded Mode_**: To start the application with a load balancer, execute:
+
+  ```bash
+  npm run start:multi
   ```
 
 5. **Running Tests**: To run the tests in watch mode, use:
